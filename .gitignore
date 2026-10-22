@@ -1,0 +1,16 @@
+.venv/
+.DS_Store
+node_modules
+dist/
+*.log
+reports/
+
+# Reel lossless masters (huge, regenerable with tools/record.mjs)
+*.nut
+
+# Third-party study material never goes into this public package (PACKAGE-REPORT.md)
+corpus/
+examples/
+knowledge/benchmarks/
+knowledge/references/
+knowledge/larpo-shipped/

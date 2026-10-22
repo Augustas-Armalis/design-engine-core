@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "replicas-x",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "--prefix",
+        "work/replicas/app",
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "4396",
+        "--strictPort"
+      ],
+      "port": 4396
+    }
+  ]
+}

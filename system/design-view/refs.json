@@ -1,0 +1,37 @@
+{
+  "$about": "Design view references: what a good result looks like per kind, shown next to every candidate at the same size. Paths are repo-relative. Add a reference only when a founder accepted it or it is a measured benchmark he rates (Kargul, Basit, Rico, Kestrel, Quorum, Kaching, Capto). Public package: only the founders' accepted engine builds are listed; the rated third-party benchmarks stay in the private engine and are not redistributed. tools/design_view.mjs skips any reference file that is missing, so local references can be added here.",
+  "post-component": {
+    "label": "X post: one component (still)",
+    "spec": "knowledge/web/x-design-posts.md XP-01, XP-07, XP-08, XP-09, XP-11, XP-12, XP-20, XP-28; system/variety/x-post-formats.json; knowledge/web/kuleszo-craft.md AKZ-01..30",
+    "refs": [
+      {
+        "path": "knowledge/engine-accepted/cbentol/fold.png",
+        "why": "Tempra dark bento, accepted r3 (\"The bento is good\"): one product fact per cell, real product fragments, no filler"
+      }
+    ]
+  },
+  "hero-light": {
+    "label": "Light SaaS hero",
+    "spec": "knowledge/engine-accepted/quorum/README.md; knowledge/web/hero-craft-study-2026-10.md HC-01..06; founder-taste hero rules; knowledge/web/kuleszo-craft.md",
+    "refs": [
+      {
+        "path": "knowledge/engine-accepted/kestrel/kestrel-fold@2x.png",
+        "why": "ACCEPTED: centred copy over a full product dashboard"
+      },
+      {
+        "path": "knowledge/engine-accepted/quorum/quorum-fold@2x.png",
+        "why": "ACCEPTED: copy column + gradient stage holding the real app"
+      }
+    ]
+  },
+  "hero-dark": {
+    "label": "Dark SaaS hero",
+    "spec": "knowledge/web/dark-mode-premium.md; founder-taste dark hero rules; knowledge/web/basit-craft.md",
+    "refs": [
+      {
+        "path": "ledger/shots/2026-10-15-kite-landing-fold.png",
+        "why": "Kite, the accepted dark hero after ~20 rounds (\"what we created is kinda not bad actually\")"
+      }
+    ]
+  }
+}

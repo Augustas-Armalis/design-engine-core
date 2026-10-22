@@ -1,0 +1,89 @@
+{
+  "kind": "hero-light",
+  "floor": [
+    "knowledge/web/lunor-founder-style.md",
+    "knowledge/benchmarks/lunor/sheets/heroes.jpg",
+    "knowledge/engine-accepted/quorum/quorum-fold@2x.png",
+    "knowledge/engine-accepted/quorum/README.md",
+    "knowledge/engine-accepted/kestrel/kestrel-fold@2x.png"
+  ],
+  "h1": {
+    "sizePx": [
+      50,
+      60
+    ],
+    "weight": [
+      400,
+      500
+    ],
+    "trackingEm": [
+      -0.04,
+      -0.02
+    ],
+    "maxWords": 8,
+    "maxLines": 2
+  },
+  "subtitle": {
+    "maxLines": 2,
+    "lastLineMinShare": 0.4
+  },
+  "cta": {
+    "heightPx": [
+      38,
+      48
+    ],
+    "radiusPx": [
+      9,
+      24
+    ],
+    "maxPrimary": 1
+  },
+  "radiusLadder": {
+    "0-24": [
+      4,
+      8
+    ],
+    "24-32": [
+      6,
+      8
+    ],
+    "32-40": [
+      10,
+      14
+    ],
+    "40-48": [
+      9,
+      16
+    ],
+    "48-80": [
+      12,
+      16
+    ],
+    "80-9999": [
+      14,
+      24
+    ]
+  },
+  "maxShadowStrings": 3,
+  "maxFontFamilies": 1,
+  "weights": [
+    400,
+    450,
+    500,
+    550,
+    600
+  ],
+  "maxAccentHues": 2,
+  "canvas": {
+    "maxChroma": 0.01
+  },
+  "hero": {
+    "ctaProductGapPx": [
+      70,
+      110
+    ],
+    "productMinFoldShare": 0.2,
+    "nothingBetweenNavAndH1": false
+  },
+  "motionDefault": "none"
+}
